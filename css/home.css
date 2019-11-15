@@ -5,6 +5,13 @@ body {
 a {
   display: block;
 }
+#page-nav a {
+  display: inline-block;
+  margin: 0 10px;
+}
+#page-nav a.next {
+  float: right;
+}
 .title {
   cursor: pointer;
 }
